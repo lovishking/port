@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lovish Jaiswal - Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <!-- Loading Screen -->
+        <div class="loading-screen" id="loading-screen">
+            <div class="loading-content">
+                <h1 class="loading-name">Lovish Jaiswal</h1>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <h2 class="loading-text">LOADING...</h2>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">Lovish Jaiswal</a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#hobbies" class="nav-link">Hobbies</a>
+                    <a href="#video-projects" class="nav-link">Video</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="resume.pdf" download class="nav-link nav-resume">
+                        <i class="fas fa-file-download"></i> Resume
+                    </a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fas fa-sparkles"></i>
+                        The Modern Developer
+                    </div>
+                    <p class="hero-greeting">Hi, I'm Lovish Jaiswal</p>
+                    <h1 class="hero-title">
+                        Welcome to <span class="highlight-text">My
+                            Portfolio</span>
+                    </h1>
+                    <p class="hero-description">
+                        Transforming Ideas into Code
+                        Full-stack developer with expertise in MERN and Django,
+                        passionate about creating dynamic, user-focused web
+                        experiences with precision and style.Profficient in DSA
+                        with c++.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Work
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Get In
+                            Touch</a>
+                        <a href="resume.pdf" download class="btn btn-resume">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">6+</span>
+                            <span class="stat-label">Live Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">Full</span>
+                            <span class="stat-label">Stack Developer</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">Sir MVIT</span>
+                            <span class="stat-label">Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-code"></i>
+                        <span>Full-Stack</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fab fa-react"></i>
+                        <span>C++</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fab fa-python"></i>
+                        <span>Django</span>
+                    </div>
+                    <div class="profile-circle">
+                        <img src="profile.jpg" alt="Lovish Jaiswal"
+                            class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-intro">
+                            Hello! I'm Lovish Jaiswal, a passionate student at
+                            Sir MVIT (Sir M. Visvesvaraya Institute of
+                            Technology)
+                            with a keen interest in technology and software
+                            development.
+                        </p>
+                        <p>
+                            I'm constantly learning and exploring new
+                            technologies to build innovative solutions.
+                            My journey in tech has been exciting, and I'm always
+                            eager to take on new challenges
+                            and collaborate on interesting projects.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Years Learning</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Technologies</span>
+                            </div>
+                        </div>
+                        <div class="about-links">
+                            <a href="https://leetcode.com/u/lovish_jaiswal"
+                                target="_blank" rel="noopener noreferrer"
+                                class="about-link">
+                                <i class="fas fa-code"></i>
+                                <span>LeetCode Profile</span>
+                            </a>
+                            <a href="https://github.com/lovishking"
+                                target="_blank" rel="noopener noreferrer"
+                                class="about-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub Profile</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/jaiswal-lovish"
+                                target="_blank" rel="noopener noreferrer"
+                                class="about-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn Profile</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-frame">
+                            <div class="placeholder-image">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Django</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-server"></i>
+                                <span>Express.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Others</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>VS Code</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code-branch"></i>
+                                <span>LeetCode</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>FoodSwings</h3>
+                            <p>A modern food delivery platform built with MERN
+                                stack. Features real-time ordering, restaurant
+                                browsing, and seamless user experience with
+                                full-stack JavaScript development.</p>
+                            <div class="project-tags">
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Express.js</span>
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/lovishking"
+                                    target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="https://foodswings.vercel.app"
+                                    target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image wax-warmth-bg">
+                            <img src="assets/wax-warmth-logo.png"
+                                alt="Wax & Warmth Logo"
+                                class="wax-logo"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="wax-fallback-logo"
+                                style="display: none;">
+                                <svg viewBox="0 0 347 280"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 100%; height: 100%; padding: 30px;">
+                                    <!-- W letters -->
+                                    <g fill="#D4AF37" opacity="0.9">
+                                        <!-- Left W slant 1 -->
+                                        <rect x="30" y="50" width="25"
+                                            height="100"
+                                            transform="rotate(15 42.5 100)" />
+                                        <rect x="60" y="50" width="25"
+                                            height="100"
+                                            transform="rotate(-15 72.5 100)" />
+
+                                        <!-- Middle W slant -->
+                                        <rect x="100" y="50" width="25"
+                                            height="100"
+                                            transform="rotate(15 112.5 100)" />
+                                        <rect x="130" y="50" width="25"
+                                            height="100"
+                                            transform="rotate(-15 142.5 100)" />
+
+                                        <!-- Right W slant -->
+                                        <rect x="195" y="50" width="25"
+                                            height="100"
+                                            transform="rotate(15 207.5 100)" />
+                                        <rect x="225" y="50" width="25"
+                                            height="100"
+                                            transform="rotate(-15 237.5 100)" />
+
+                                        <!-- Far right slant -->
+                                        <rect x="270" y="50" width="25"
+                                            height="80"
+                                            transform="rotate(15 282.5 90)" />
+                                    </g>
+
+                                    <!-- Text -->
+                                    <text x="173" y="175" text-anchor="middle"
+                                        fill="white" font-size="24"
+                                        font-family="Arial, sans-serif"
+                                        font-weight="300">Wax & Warmth</text>
+
+                                    <!-- Bottom W slants -->
+                                    <g fill="#D4AF37" opacity="0.9">
+                                        <rect x="50" y="190" width="25"
+                                            height="80"
+                                            transform="rotate(15 62.5 230)" />
+                                        <rect x="80" y="190" width="25"
+                                            height="80"
+                                            transform="rotate(-15 92.5 230)" />
+
+                                        <rect x="130" y="190" width="25"
+                                            height="80"
+                                            transform="rotate(15 142.5 230)" />
+                                        <rect x="160" y="190" width="25"
+                                            height="80"
+                                            transform="rotate(-15 172.5 230)" />
+
+                                        <rect x="205" y="190" width="25"
+                                            height="80"
+                                            transform="rotate(15 217.5 230)" />
+                                        <rect x="235" y="190" width="25"
+                                            height="80"
+                                            transform="rotate(-15 247.5 230)" />
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Wax & Warmth</h3>
+                            <p>An elegant e-commerce platform for premium candle
+                                products. Features product catalog, shopping
+                                cart, and secure checkout system built with
+                                Django backend.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Django</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/lovishking"
+                                    target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="https://wax-and-warmth.shop"
+                                    target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Django Expense Tracker</h3>
+                            <p>A comprehensive expense tracking application
+                                built with Django. Features expense management,
+                                category organization, financial insights, and a
+                                modern responsive Bootstrap UI for tracking
+                                daily expenses.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Django</span>
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/lovishking/expensetracker"
+                                    target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>TinyLink - URL Shortener</h3>
+                            <p>A modern, full-featured URL shortener built with
+                                Next.js 14. Features custom short codes, click
+                                tracking, analytics dashboard, and PostgreSQL
+                                database with comprehensive API endpoints.</p>
+                            <div class="project-tags">
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Next.js</span>
+                                <span class="tag">PostgreSQL</span>
+                                <span class="tag">Tailwind CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/lovishking/url-shortner"
+                                    target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a
+                                    href="https://link-shortner-hqvc0lhti-lovishkings-projects.vercel.app/"
+                                    target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>C++ Programming Projects</h3>
+                            <p>A collection of C++ programming exercises and
+                                foundational projects. Includes various
+                                algorithms, data structures, and problem-solving
+                                implementations showcasing core programming
+                                concepts.</p>
+                            <div class="project-tags">
+                                <span class="tag">C++</span>
+                                <span class="tag">Algorithms</span>
+                                <span class="tag">Data Structures</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/lovishking/first-project"
+                                    target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="hobbies">
+            <div class="container">
+                <h2 class="section-title">My Hobbies</h2>
+                <p class="section-subtitle">Things I love to do in my free
+                    time</p>
+                <div class="hobbies-scroll-container">
+                    <div class="hobbies-scroll">
+                        <!-- Hobby Card 1 -->
+                        <div class="hobby-card">
+                            <div class="hobby-video">
+                                <video autoplay loop muted playsinline>
+                                    <source src="hobbies/hobby1.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="hobby-overlay">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </div>
+                            <div class="hobby-content">
+                                <h3>Coding</h3>
+                                <p>Building projects and solving problems</p>
+                            </div>
+                        </div>
+
+                        <!-- Hobby Card 2 -->
+                        <div class="hobby-card">
+                            <div class="hobby-video">
+                                <video autoplay loop muted playsinline>
+                                    <source src="hobbies/hobby2.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="hobby-overlay">
+                                    <i class="fas fa-gamepad"></i>
+                                </div>
+                            </div>
+                            <div class="hobby-content">
+                                <h3>Gaming</h3>
+                                <p>Strategy and adventure games</p>
+                            </div>
+                        </div>
+
+                        <!-- Hobby Card 3 -->
+                        <div class="hobby-card">
+                            <div class="hobby-video">
+                                <video autoplay loop muted playsinline>
+                                    <source src="hobbies/hobby3.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="hobby-overlay">
+                                    <i class="fas fa-music"></i>
+                                </div>
+                            </div>
+                            <div class="hobby-content">
+                                <h3>Music</h3>
+                                <p>Listening to different genres</p>
+                            </div>
+                        </div>
+
+                        <!-- Hobby Card 4 -->
+                        <div class="hobby-card">
+                            <div class="hobby-video">
+                                <video autoplay loop muted playsinline>
+                                    <source src="hobbies/hobby4.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="hobby-overlay">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                            </div>
+                            <div class="hobby-content">
+                                <h3>Reading</h3>
+                                <p>Tech articles and novels</p>
+                            </div>
+                        </div>
+
+                        <!-- Hobby Card 5 -->
+                        <div class="hobby-card">
+                            <div class="hobby-video">
+                                <video autoplay loop muted playsinline>
+                                    <source src="hobbies/hobby5.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="hobby-overlay">
+                                    <i class="fas fa-camera"></i>
+                                </div>
+                            </div>
+                            <div class="hobby-content">
+                                <h3>Photography</h3>
+                                <p>Capturing beautiful moments</p>
+                            </div>
+                        </div>
+
+                        <!-- Hobby Card 6 -->
+                        <div class="hobby-card">
+                            <div class="hobby-video">
+                                <video autoplay loop muted playsinline>
+                                    <source src="hobbies/hobby6.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="hobby-overlay">
+                                    <i class="fas fa-dumbbell"></i>
+                                </div>
+                            </div>
+                            <div class="hobby-content">
+                                <h3>Fitness</h3>
+                                <p>Staying active and healthy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-hint">
+                    <i class="fas fa-arrow-right"></i>
+                    <span>Scroll to explore more</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Projects Section -->
+        <section id="video-projects" class="video-projects">
+            <div class="container">
+                <h2 class="section-title">Video Projects</h2>
+                <p class="section-subtitle">Creative content and technical
+                    showcases</p>
+
+                <!-- CodeShack Videos -->
+                <div class="video-category">
+                    <div class="category-header">
+                        <h3 class="category-title">
+                            <i class="fas fa-video"></i>
+                            CodeShack Projects
+                        </h3>
+                        <div class="slider-controls">
+                            <button class="slider-btn prev-btn"
+                                onclick="slideVideos('codeshack', -1)">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="slider-btn next-btn"
+                                onclick="slideVideos('codeshack', 1)">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="video-slider-container">
+                        <div class="video-slider" id="codeshack-slider">
+                            <a
+                                href="https://photos.app.goo.gl/gLaZAAyyk1b946gc8"
+                                target="_blank" rel="noopener noreferrer"
+                                class="video-card">
+                                <div class="video-thumbnail">
+                                    <img
+                                        src="https://lh3.googleusercontent.com/pw/AP1GczNvlj8rCEsXyOXj8X-thumbnail"
+                                        alt="CodeShack Project"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                    <div class="fallback-icon"
+                                        style="display:none;">
+                                        <i class="fab fa-google"></i>
+                                    </div>
+                                    <div class="play-overlay">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>CodeShack Project 1</h4>
+                                    <p>Google Photos</p>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.instagram.com/reel/DCOFB_jKOos/?igsh=MTE1NzdkbXUxd29zag=="
+                                target="_blank" rel="noopener noreferrer"
+                                class="video-card">
+                                <div class="video-thumbnail">
+                                    <iframe
+                                        src="https://www.instagram.com/p/DCOFB_jKOos/embed"
+                                        frameborder="0" scrolling="no"
+                                        allowtransparency="true"></iframe>
+                                    <div class="play-overlay">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>CodeShack Reel 1</h4>
+                                    <p>Instagram Reel</p>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.instagram.com/reel/DCLrszBKdEB/?igsh=MXhidnd5cW93dHl6MA=="
+                                target="_blank" rel="noopener noreferrer"
+                                class="video-card">
+                                <div class="video-thumbnail">
+                                    <iframe
+                                        src="https://www.instagram.com/p/DCLrszBKdEB/embed"
+                                        frameborder="0" scrolling="no"
+                                        allowtransparency="true"></iframe>
+                                    <div class="play-overlay">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>CodeShack Reel 2</h4>
+                                    <p>Instagram Reel</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Instagram Videos -->
+                <div class="video-category">
+                    <div class="category-header">
+                        <h3 class="category-title">
+                            <i class="fab fa-instagram"></i>
+                            Personal Instagram Reels
+                        </h3>
+                        <div class="slider-controls">
+                            <button class="slider-btn prev-btn"
+                                onclick="slideVideos('personal', -1)">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="slider-btn next-btn"
+                                onclick="slideVideos('personal', 1)">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="video-slider-container">
+                        <div class="video-slider" id="personal-slider">
+                            <a
+                                href="https://www.instagram.com/reel/C-7eLcPvRqv/?igsh=eG1vdHFycHF0N3M0"
+                                target="_blank" rel="noopener noreferrer"
+                                class="video-card">
+                                <div class="video-thumbnail">
+                                    <iframe
+                                        src="https://www.instagram.com/p/C-7eLcPvRqv/embed"
+                                        frameborder="0" scrolling="no"
+                                        allowtransparency="true"></iframe>
+                                    <div class="play-overlay">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>Personal Reel 1</h4>
+                                    <p>Instagram Reel</p>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.instagram.com/reel/C8HAgogP1-X/?igsh=OTcxM3FqMHp0Nzhk"
+                                target="_blank" rel="noopener noreferrer"
+                                class="video-card">
+                                <div class="video-thumbnail">
+                                    <iframe
+                                        src="https://www.instagram.com/p/C8HAgogP1-X/embed"
+                                        frameborder="0" scrolling="no"
+                                        allowtransparency="true"></iframe>
+                                    <div class="play-overlay">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>Personal Reel 2</h4>
+                                    <p>Instagram Reel</p>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.instagram.com/reel/C7tOgYZNiBq/?igsh=MW16eDRqeHprY3ozdw=="
+                                target="_blank" rel="noopener noreferrer"
+                                class="video-card">
+                                <div class="video-thumbnail">
+                                    <iframe
+                                        src="https://www.instagram.com/p/C7tOgYZNiBq/embed"
+                                        frameborder="0" scrolling="no"
+                                        allowtransparency="true"></iframe>
+                                    <div class="play-overlay">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>Personal Reel 3</h4>
+                                    <p>Instagram Reel</p>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.instagram.com/reel/C57Z-A3vUFK/?igsh=dHFleHhmODhrZWZs"
+                                target="_blank" rel="noopener noreferrer"
+                                class="video-card">
+                                <div class="video-thumbnail">
+                                    <iframe
+                                        src="https://www.instagram.com/p/C57Z-A3vUFK/embed"
+                                        frameborder="0" scrolling="no"
+                                        allowtransparency="true"></iframe>
+                                    <div class="play-overlay">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>Personal Reel 4</h4>
+                                    <p>Instagram Reel</p>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.instagram.com/reel/C8okb7Wve5C/?igsh=MXFwYzE4ZHU5ZGhoNg=="
+                                target="_blank" rel="noopener noreferrer"
+                                class="video-card">
+                                <div class="video-thumbnail">
+                                    <iframe
+                                        src="https://www.instagram.com/p/C8okb7Wve5C/embed"
+                                        frameborder="0" scrolling="no"
+                                        allowtransparency="true"></iframe>
+                                    <div class="play-overlay">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="video-info">
+                                    <h4>Personal Reel 5</h4>
+                                    <p>Instagram Reel</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always open to discussing new opportunities,
+                            collaborations, or just having a chat about
+                            technology!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>jaiswal.lovish.official@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 8969570204</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bangalore, India</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-university"></i>
+                                <span>Sir MVIT</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form"
+                        action="https://formspree.io/f/mvgvjlgy" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name"
+                                placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email"
+                                placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject"
+                                placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message"
+                                placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <input type="hidden" name="_subject"
+                            value="New Portfolio Contact Message">
+                        <input type="hidden" name="_replyto" id="reply-to">
+                        <input type="hidden" name="_next"
+                            value="https://lovishking.github.io/portfolio/#contact">
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Sending...
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2024 Lovish Jaiswal. All rights reserved.</p>
+                    <div class="footer-socials">
+                        <a href="https://www.linkedin.com/in/jaiswal-lovish"
+                            target="_blank" rel="noopener noreferrer"
+                            class="footer-social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/lovishking" target="_blank"
+                            rel="noopener noreferrer"
+                            class="footer-social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/lovish_jaiswal"
+                            target="_blank" rel="noopener noreferrer"
+                            class="footer-social-link">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <a href="https://www.instagram.com/lovish._.jaiswal"
+                            target="_blank" rel="noopener noreferrer"
+                            class="footer-social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
